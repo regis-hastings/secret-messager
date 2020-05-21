@@ -8,10 +8,22 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <style>
+      .row {
+        margin-top: 25vh;
+      }
+    </style>
   </head>
   <body>
     <div class="row">
       <div class="col s8 offset-s2">
+        <div id="message-show" class="card-panel hide">
+          <h1></h1>
+          <div>
+            <a href="./index.html">Create your own secret message</a>
+          </div>
+        </div>
+
         <div id="message-form" class="card-panel">
           <form action="">
             <label for="">Enter a Secret Message</label>
